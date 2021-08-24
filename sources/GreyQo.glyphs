@@ -4,7 +4,8 @@ DisplayStrings = (
 "/nbspace",
 abcdefghijklmnopqrstuvwxyz,
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
-"HH0H1HH2HH3H\012HH4HH5HH6HH\012HH/Placeholder HO/Placeholder OOHH/Placeholder H\0120/Placeholder 0/space 1/Placeholder 1/space 2/Placeholder 2/space 3/Placeholder 3/space 4/Placeholder 4/space 5/Placeholder 5/space \0126/Placeholder 6/space 7/Placeholder 7/space 8/Placeholder 8/space 9/Placeholder 9\012/zero.lf/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf \012nn/Placeholder no/Placeholder oo/space HH/Placeholder HO/Placeholder OO\012/Euro/cedi ¢/colonsign ¤0$/dong/florin/franc/guarani K/kip/lira 4/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/nbspace"
+"HH0H1HH2HH3H\012HH4HH5HH6HH\012HH/Placeholder HO/Placeholder OOHH/Placeholder H\0120/Placeholder 0/space 1/Placeholder 1/space 2/Placeholder 2/space 3/Placeholder 3/space 4/Placeholder 4/space 5/Placeholder 5/space \0126/Placeholder 6/space 7/Placeholder 7/space 8/Placeholder 8/space 9/Placeholder 9\012/zero.lf/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf \012nn/Placeholder no/Placeholder oo/space HH/Placeholder HO/Placeholder OO\012/Euro/cedi ¢/colonsign ¤0$/dong/florin/franc/guarani K/kip/lira 4/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/nbspace",
+"/f_f/space/space/f_f_i/space/f_f_l/space/fi/space/fl \012ff/space ffi/space ffl"
 );
 copyright = "Copyright 2008-2021 The Grey Qo Project Authors (https://github.com/googlefonts/grey-qo)";
 customParameters = (
@@ -124,20 +125,24 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 692;
-},
-{
-name = winDescent;
-value = 369;
-},
-{
 name = hheaAscender;
 value = 692;
 },
 {
 name = hheaDescender;
 value = -369;
+},
+{
+name = hheaAscender;
+value = 0;
+},
+{
+name = winAscent;
+value = 692;
+},
+{
+name = winDescent;
+value = 369;
 },
 {
 name = strikeoutPosition;
@@ -25046,9 +25051,15 @@ unicode = 017C;
 },
 {
 glyphname = f_f;
-lastChange = "2021-08-23 17:44:31 +0000";
+lastChange = "2021-08-24 02:00:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{201, 0}";
+}
+);
 layerId = "C2A7C206-1962-4FAA-88DB-FE8C23752EC9";
 paths = (
 {
@@ -25253,9 +25264,19 @@ rightMetricsKey = f;
 },
 {
 glyphname = f_f_i;
-lastChange = "2021-04-19 06:54:11 +0000";
+lastChange = "2021-08-24 02:00:38 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{184.333, 0}";
+},
+{
+name = caret_2;
+position = "{368.667, 0}";
+}
+);
 components = (
 {
 name = f_f;
@@ -25274,9 +25295,19 @@ rightMetricsKey = i;
 },
 {
 glyphname = f_f_l;
-lastChange = "2021-04-19 06:54:11 +0000";
+lastChange = "2021-08-24 02:00:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{208, 0}";
+},
+{
+name = caret_2;
+position = "{416, 0}";
+}
+);
 components = (
 {
 name = f_f;
@@ -25295,9 +25326,15 @@ rightMetricsKey = l;
 },
 {
 glyphname = fi;
-lastChange = "2021-08-23 17:44:31 +0000";
+lastChange = "2021-08-24 02:00:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{176, 0}";
+}
+);
 layerId = "C2A7C206-1962-4FAA-88DB-FE8C23752EC9";
 paths = (
 {
@@ -25489,9 +25526,15 @@ unicode = FB01;
 },
 {
 glyphname = fl;
-lastChange = "2021-04-19 06:54:11 +0000";
+lastChange = "2021-08-24 02:00:48 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{211.5, 0}";
+}
+);
 components = (
 {
 name = f;
