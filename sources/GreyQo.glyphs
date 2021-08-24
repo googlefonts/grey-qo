@@ -4,8 +4,7 @@ DisplayStrings = (
 "/nbspace",
 abcdefghijklmnopqrstuvwxyz,
 ABCDEFGHIJKLMNOPQRSTUVWXYZ,
-"HH0H1HH2HH3H\012HH4HH5HH6HH\012HH/Placeholder HO/Placeholder OOHH/Placeholder H\0120/Placeholder 0/space 1/Placeholder 1/space 2/Placeholder 2/space 3/Placeholder 3/space 4/Placeholder 4/space 5/Placeholder 5/space \0126/Placeholder 6/space 7/Placeholder 7/space 8/Placeholder 8/space 9/Placeholder 9\012/zero.lf/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf \012nn/Placeholder no/Placeholder oo/space HH/Placeholder HO/Placeholder OO\012/Euro/cedi ¢/colonsign ¤0$/dong/florin/franc/guarani K/kip/lira 4/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/nbspace",
-"/f_f/space/space/f_f_i/space/f_f_l/space/fi/space/fl \012ff/space ffi/space ffl"
+"HH0H1HH2HH3H\012HH4HH5HH6HH\012HH/Placeholder HO/Placeholder OOHH/Placeholder H\0120/Placeholder 0/space 1/Placeholder 1/space 2/Placeholder 2/space 3/Placeholder 3/space 4/Placeholder 4/space 5/Placeholder 5/space \0126/Placeholder 6/space 7/Placeholder 7/space 8/Placeholder 8/space 9/Placeholder 9\012/zero.lf/one.lf/two.lf/three.lf/four.lf/five.lf/six.lf/seven.lf/eight.lf/nine.lf \012nn/Placeholder no/Placeholder oo/space HH/Placeholder HO/Placeholder OO\012/Euro/cedi ¢/colonsign ¤0$/dong/florin/franc/guarani K/kip/lira 4/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/nbspace"
 );
 copyright = "Copyright 2008-2021 The Grey Qo Project Authors (https://github.com/googlefonts/grey-qo)";
 customParameters = (
@@ -114,11 +113,11 @@ capHeight = 540;
 customParameters = (
 {
 name = typoAscender;
-value = 692;
+value = 800;
 },
 {
 name = typoDescender;
-value = -369;
+value = -400;
 },
 {
 name = typoLineGap;
@@ -126,14 +125,14 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 692;
+value = 800;
 },
 {
 name = hheaDescender;
-value = -369;
+value = -400;
 },
 {
-name = hheaAscender;
+name = hheaLineGap;
 value = 0;
 },
 {
@@ -40351,5 +40350,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
