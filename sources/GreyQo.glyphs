@@ -5,7 +5,8 @@ DisplayStrings = (
 "aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde/acaron â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adblgrave ä/adotbelow à/ahookabove/ainvertedbreve/amacron/aogonek å/aringacute ã",
 "OÓ/Obreve/Ocaron Ô/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odblgrave Ö/Odieresismacron/Odotaccentmacron/Odotbelow Ò/Ohookabove/Ohorn/Ohungarumlaut/Oinvertedbreve/Omacron/Oogonek Õ/Otildemacron",
 "/ohornacute",
-"-­"
+"-­",
+"D/Dcaron"
 );
 copyright = "Copyright 2008-2021 The Grey Qo Project Authors (https://github.com/googlefonts/grey-qo)";
 customParameters = (
@@ -1701,7 +1702,7 @@ unicode = 010A;
 },
 {
 glyphname = D;
-lastChange = "2021-08-27 06:25:41 +0000";
+lastChange = "2021-08-27 06:41:53 +0000";
 layers = (
 {
 anchors = (
@@ -1715,7 +1716,7 @@ position = "{282, 270}";
 },
 {
 name = top;
-position = "{532, 407}";
+position = "{544, 383}";
 }
 );
 layerId = "C2A7C206-1962-4FAA-88DB-FE8C23752EC9";
@@ -1994,7 +1995,7 @@ unicode = 00D0;
 },
 {
 glyphname = Dcaron;
-lastChange = "2021-08-27 05:51:47 +0000";
+lastChange = "2021-08-27 06:41:53 +0000";
 layers = (
 {
 components = (
@@ -2003,7 +2004,7 @@ name = D;
 },
 {
 name = caron;
-transform = "{1, 0, 0, 1, 455, 142}";
+transform = "{1, 0, 0, 1, 467, 118}";
 }
 );
 layerId = "C2A7C206-1962-4FAA-88DB-FE8C23752EC9";
